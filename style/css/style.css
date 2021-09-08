@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+.left_presentation{
+    background-color: grey;
+    width: 30%;
+    height: 700px;
+
+    align-items: center;
+}
+
+.right_presentation{
+    background-color: hotpink;
+    width: 70%;
+    height: 700px;
+}
+
+.left_presentation .name{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.left_presentation .picture{
+    width: 100%;
+    height: 200px;
+}
