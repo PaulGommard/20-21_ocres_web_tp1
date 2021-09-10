@@ -5,12 +5,13 @@
 body{
     display: flex;
     align-items: center;
+    height: 1200px;
 }
 
 .left_presentation{
     background-color: grey;
     width: 30%;
-    height: 700px;
+    height: 100%;
 
     align-items: center;
 }
@@ -18,10 +19,10 @@ body{
 .right_presentation{
     background-color: hotpink;
     width: 70%;
-    height: 700px;
+    height: 100%;
 }
 
-.left_presentation .name{
+.left_presentation .title{
     width: 100%;
     text-align: center;
     padding-top: 20px;
@@ -29,5 +30,17 @@ body{
 
 .left_presentation .picture{
     width: 100%;
-    height: 200px;
+    height: 300px;
+    align-items: center;
+}
+
+img{
+    width: 80%;
+    height: 250px;
+    padding-left: 15%;
+    padding-top: 20px;
+    
+}
+
+
 }
