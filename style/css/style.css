@@ -5,7 +5,7 @@
 body{
     display: flex;
     align-items: center;
-    height: 1000px;
+    height: 1200px;
     padding: 0 10%;
 }
 
@@ -15,12 +15,14 @@ body{
     height: 100%;
 
     align-items: center;
+    color: #181A20;
 }
 
 .right_presentation{
     background-color: #9489ca;
-    width: 70%;
     height: 100%;
+    width: 70%;
+    color: #181A20;
 }
 
 .left_presentation .title{
@@ -71,4 +73,29 @@ img{
 .right_block{
     width: 85%;
     padding-right: 10%;
+}
+
+button {  
+    padding: 15px 40px;
+    background-color: rgba(148, 137, 202, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease Os;
+}
+
+button:hover {
+    background-color: rgba(148, 137, 202, 0.8);;
+}
+
+.bottom_page{
+    height: 100px;
+    width: 100%;
+}
+
+
+.cta{
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
 }
