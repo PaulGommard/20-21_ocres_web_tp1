@@ -43,4 +43,13 @@ img{
 }
 
 
+.right_presentation .title{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 60%;
+}
+
+.right_presentation .profil p{
+    padding: 0 5%;
 }
