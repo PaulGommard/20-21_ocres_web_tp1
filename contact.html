@@ -6,43 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 
-    <link rel="stylesheet" type="text/css" href="style/css/menu.css"  />
+    <link rel="stylesheet" type="text/css" href="style/css/style.css"  />
 </head>
 <body>
     <header>
         <h1>CONTACT</h1>
     </header>
 
-    <section> 
+    <section class="contact"> 
         <label for="name">Your Name :</label>
 
         <input class="name" type="text" id="name" name="name" required
             minlength="4" maxlength="50" size="20">
     </section>
 
-    <section> 
+    <section class="contact"> 
         <label for="email">Your Email :</label>
 
         <input class="email" type="text" id="email" name="email" required
             minlength="4" maxlength="100" size="40">
     </section>
 
-    <section> 
+    <section class="contact"> 
         <label for="remark">Remark :</label>
 
-        <input class="remark" type="text" id="remark" name="remark" required
-            minlength="4" maxlength="500" size="40">
+        <textarea placeholder="write your comment"></textarea>
     </section>
 
     
-    <div class="send">
+    <section class="send">
         <a class="cta" href="/send"><button>Send</button></a>   
-    </div>
+    </section>
 
     <footer>
-        <div class="back_menu">
+        <section class="back_menu">
             <a class="cta" href="file:///home/paul/Projets/20-21_ocres_web_tp1/menu.html"><button>Back To Menu</button></a>   
-        </div>
+        </section>
     </footer>
 </body>
 </html>

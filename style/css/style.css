@@ -3,81 +3,57 @@
 }
 
 body{
-    display: flex;
     align-items: center;
-    height: 1200px;
     padding: 0 10%;
     background-color: #181A20;
 }
 
-.left_presentation{
-    background-color: #bfca89;
-    width: 30%;
-    height: 100%;
-
+header{
+    width: 100%;
     align-items: center;
-    color: #181A20;
-}
-
-.right_presentation{
-    background-color: #9489ca;
-    height: 100%;
-    width: 70%;
-    color: #181A20;
-}
-
-.left_presentation .title{
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.left_presentation .picture{
-    width: 100%;
-    height: 300px;
-    align-items: center;
-}
-
-img{
-    width: 80%;
-    height: 250px;
-    padding-left: 15%;
-    padding-top: 20px;
-    
-}
-
-
-.right_presentation .title{
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-    padding-right: 60%;
-}
-
-.right_presentation .profil p{
-    padding: 0 5%;
-}
-
-.block_details{
-    padding-top: 30px;
+    justify-content: center;
     display: flex;
-    height: 150px;
-    
+    flex-direction: column;
 }
 
-.left_block{
-    height: 100%;
-    width: 15%;
-    padding-left: 10px;
+header h1{
+    font-size: 150px;
+    color: #edf0f1;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation: animation 5s linear 2s infinite alternate;
+    animation-fill-mode: forwards;
 }
 
-.right_block{
-    width: 85%;
-    padding-right: 10%;
+.title{
+    font-size: 150px;
+    color: #edf0f1;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation: animation 5s linear 2s infinite alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation{
+    0%{
+        left:200px;
+    }
+    100%{
+        left:-200px;
+    }
+}
+
+header h3{
+    color: #edf0f1;
+    font-size: 30px;
 }
 
 button {  
-    padding: 15px 40px;
+    padding: 20px 60px;
     background-color: rgba(148, 137, 202, 1);
     border: none;
     border-radius: 50px;
@@ -89,9 +65,8 @@ button:hover {
     background-color: rgba(148, 137, 202, 0.8);;
 }
 
-.bottom_page{
-    height: 100px;
-    width: 100%;
+.send{
+    padding-left: 70px;
 }
 
 
@@ -99,4 +74,41 @@ button:hover {
     padding-top: 40px;
     justify-content: center;
     display: flex;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    color: #edf0f1;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    margin-left: 10px;
+}
+
+.contact{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+} 
+
+.remark{
+    height: 200px;
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+.back_menu{
+    display: flex;
+}
+
+textarea{
+    height: 300px;
+    width: 500px;
 }
