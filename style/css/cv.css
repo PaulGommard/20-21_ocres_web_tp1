@@ -11,19 +11,19 @@ body{
 }
 
 .left_presentation{
-    background-color: #bfca89;
+    background-color: #edf0f1;
     width: 30%;
     height: 100%;
 
     align-items: center;
-    color: #181A20;
+    color: #323338;
 }
 
 .right_presentation{
-    background-color: #9489ca;
+    background-color: #323338;
     height: 100%;
     width: 70%;
-    color: #181A20;
+    color: #edf0f1;
 }
 
 .top_page h2{
